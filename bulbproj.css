@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+.off{
+    width: 400px;
+    height: 500px; 
+    margin-left: 23rem;
+    background-color: black; 
+    background-size: cover;
+    background-image: url("./bulbimage/bulb_off.jpg");
+}
+.on{
+    width: 400px;
+    height: 500px; 
+    margin-left: 23rem;
+    background-color: black; 
+    background-size: cover;
+    background-image: url("./bulbimage/bulb_on.jpg");
+    
+}
+.bulbon{
+    display: none;
+}
+.bulboff{
+    display: none;
+}
+
+.Btn{
+   color: white;
+   
+   margin-left: 36rem;
+   padding: 1rem;
+   border-radius:1rem;
+   -moz-border-radius:1rem;
+   -ms-border-radius:1rem;
+   -o-border-radius:1rem;
+   -webkit-border-radius:1rem;
+}
